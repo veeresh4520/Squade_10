@@ -1,252 +1,66 @@
-# Very Hard Issues — Multi-Floor Parking Allocation and Billing
+# Very Hard Issues — Integrated OOP Challenges
 
-**Assigned Very Hard topic:** Multi-Floor Parking Allocation and Billing  
-**Assigned Hard topic:** Hotel Room Booking System
+These eight challenges are complete mini-projects, not isolated missing-method exercises. Each uses collaborating classes and objects and is intended to exercise constructors, object creation, inheritance, overriding, overloading, and polymorphic behavior. The issue descriptions provide task lists and sample output without spelling out the defects.
 
-These eight issues require writing one missing method per starter file. The method call is present; the method implementation is intentionally absent. Expected outputs are included, but no solutions are provided. Only beginner Java constructs are required.
+## Issue #57: Multi-Floor Parking Allocation and Billing — Integrated OOP Challenge
 
-# Issue #57: Write `calculateAvailableParkingSpacesPercentage` for Multi-Floor Parking Allocation and Billing
-
-**Difficulty:** Very Hard  
-**Scenario:** Multi-Floor Parking Allocation and Billing: Calculate the percentage represented by completed records out of the supplied total. Return 0 when total is zero.  
-**Topic:** method-writing with variables, conditions, loops, arrays, strings, and basic classes  
-**Starter file:** `src/main/java/hackathon/Issue57_VH30_MultiFloorParkingAllocationAndBilling.java`
-
-## Scenario brief
-Multi-Floor Parking Allocation and Billing: Calculate the percentage represented by completed records out of the supplied total. Return 0 when total is zero.. This is a small, isolated exercise; keep the solution within beginner Java and do not add collections or external libraries.
-
-## Task
-The starter calls `calculateAvailableParkingSpacesPercentage(int completed, int total)`, but the method has not been written. Write this method from scratch. Calculate the percentage represented by completed records out of the supplied total. Return 0 when total is zero. Use the supplied values exactly as shown in the starter file. Keep the implementation to basic Java constructs; do not use collections, inheritance, or external libraries.
-
-## Expected output
-The program should produce exactly:
-
-```text
-Available parking spaces percentage: 75.0
-```
-
-**Required method signature:** `static double calculateAvailableParkingSpacesPercentage(int completed, int total)`
-
-## Done when
-- [ ] The program produces the expected output.
-- [ ] The supplied scenario and test values are preserved.
-- [ ] You test one additional sensible boundary case.
-- [ ] Your pull request explains the behaviour changed and how you tested it.
-
+- **Starter file:** `src/main/java/hackathon/Issue57_VH30_MultiFloorParkingAllocationAndBilling.java`
+- **Challenge:** Investigate the complete multi-class OOP workflow using the task list in the linked issue description.
+- **Expected output:** `moved=true; available=15; all=15; status=OPEN`
 
 ---
 
-# Issue #58: Write `countAtLeastAvailableParkingSpaces` for Multi-Floor Parking Allocation and Billing
+## Issue #58: Multi-Floor Parking Allocation and Billing — Integrated OOP Challenge
 
-**Difficulty:** Very Hard  
-**Scenario:** Multi-Floor Parking Allocation and Billing: Count how many supplied available parking spaces values are at least the given threshold.  
-**Topic:** method-writing with variables, conditions, loops, arrays, strings, and basic classes  
-**Starter file:** `src/main/java/hackathon/Issue58_VH30_MultiFloorParkingAllocationAndBilling.java`
-
-## Scenario brief
-Multi-Floor Parking Allocation and Billing: Count how many supplied available parking spaces values are at least the given threshold.. This is a small, isolated exercise; keep the solution within beginner Java and do not add collections or external libraries.
-
-## Task
-The starter calls `countAtLeastAvailableParkingSpaces(int[] values, int threshold)`, but the method has not been written. Write this method from scratch. Count how many supplied available parking spaces values are at least the given threshold. Use the supplied values exactly as shown in the starter file. Keep the implementation to basic Java constructs; do not use collections, inheritance, or external libraries.
-
-## Expected output
-The program should produce exactly:
-
-```text
-Values meeting threshold: 2
-```
-
-**Required method signature:** `static int countAtLeastAvailableParkingSpaces(int[] values, int threshold)`
-
-## Done when
-- [ ] The program produces the expected output.
-- [ ] The supplied scenario and test values are preserved.
-- [ ] You test one additional sensible boundary case.
-- [ ] Your pull request explains the behaviour changed and how you tested it.
-
+- **Starter file:** `src/main/java/hackathon/Issue58_VH30_MultiFloorParkingAllocationAndBilling.java`
+- **Challenge:** Investigate the complete multi-class OOP workflow using the task list in the linked issue description.
+- **Expected output:** `first=52; second=93; state=READY; total=145; all=211; found=true`
 
 ---
 
-# Issue #59: Write `calculateTotalAvailableParkingSpaces` for Multi-Floor Parking Allocation and Billing
+## Issue #59: Multi-Floor Parking Allocation and Billing — Integrated OOP Challenge
 
-**Difficulty:** Very Hard  
-**Scenario:** Multi-Floor Parking Allocation and Billing: Calculate the sum of all supplied available parking spaces.  
-**Topic:** method-writing with variables, conditions, loops, arrays, strings, and basic classes  
-**Starter file:** `src/main/java/hackathon/Issue59_VH30_MultiFloorParkingAllocationAndBilling.java`
-
-## Scenario brief
-Multi-Floor Parking Allocation and Billing: Calculate the sum of all supplied available parking spaces.. This is a small, isolated exercise; keep the solution within beginner Java and do not add collections or external libraries.
-
-## Task
-The starter calls `calculateTotalAvailableParkingSpaces(int[] values)`, but the method has not been written. Write this method from scratch. Calculate the sum of all supplied available parking spaces. Use the supplied values exactly as shown in the starter file. Keep the implementation to basic Java constructs; do not use collections, inheritance, or external libraries.
-
-## Expected output
-The program should produce exactly:
-
-```text
-Total Available parking spaces: 13
-```
-
-**Required method signature:** `static int calculateTotalAvailableParkingSpaces(int[] values)`
-
-## Done when
-- [ ] The program produces the expected output.
-- [ ] The supplied scenario and test values are preserved.
-- [ ] You test one additional sensible boundary case.
-- [ ] Your pull request explains the behaviour changed and how you tested it.
-
+- **Starter file:** `src/main/java/hackathon/Issue59_VH30_MultiFloorParkingAllocationAndBilling.java`
+- **Challenge:** Investigate the complete multi-class OOP workflow using the task list in the linked issue description.
+- **Expected output:** `first=52; second=93; state=READY; total=145; all=211; found=true`
 
 ---
 
-# Issue #60: Write `findParkingTicketIndex` for Multi-Floor Parking Allocation and Billing
+## Issue #60: Multi-Floor Parking Allocation and Billing — Integrated OOP Challenge
 
-**Difficulty:** Very Hard  
-**Scenario:** Multi-Floor Parking Allocation and Billing: Return the zero-based position of the requested parking ticket ID, or -1 if it is not present.  
-**Topic:** method-writing with variables, conditions, loops, arrays, strings, and basic classes  
-**Starter file:** `src/main/java/hackathon/Issue60_VH30_MultiFloorParkingAllocationAndBilling.java`
-
-## Scenario brief
-Multi-Floor Parking Allocation and Billing: Return the zero-based position of the requested parking ticket ID, or -1 if it is not present.. This is a small, isolated exercise; keep the solution within beginner Java and do not add collections or external libraries.
-
-## Task
-The starter calls `findParkingTicketIndex(String[] ids, String target)`, but the method has not been written. Write this method from scratch. Return the zero-based position of the requested parking ticket ID, or -1 if it is not present. Use the supplied values exactly as shown in the starter file. Keep the implementation to basic Java constructs; do not use collections, inheritance, or external libraries.
-
-## Expected output
-The program should produce exactly:
-
-```text
-Parking ticket index: 2
-```
-
-**Required method signature:** `static int findParkingTicketIndex(String[] ids, String target)`
-
-## Done when
-- [ ] The program produces the expected output.
-- [ ] The supplied scenario and test values are preserved.
-- [ ] You test one additional sensible boundary case.
-- [ ] Your pull request explains the behaviour changed and how you tested it.
-
+- **Starter file:** `src/main/java/hackathon/Issue60_VH30_MultiFloorParkingAllocationAndBilling.java`
+- **Challenge:** Investigate the complete multi-class OOP workflow using the task list in the linked issue description.
+- **Expected output:** `first=52; second=93; state=READY; total=145; all=211; found=true`
 
 ---
 
-# Issue #61: Write `calculateParkingCharge` for Multi-Floor Parking Allocation and Billing
+## Issue #61: Multi-Floor Parking Allocation and Billing — Integrated OOP Challenge
 
-**Difficulty:** Very Hard  
-**Scenario:** Multi-Floor Parking Allocation and Billing: Calculate the total using the supplied unit parking charge and quantity.  
-**Topic:** method-writing with variables, conditions, loops, arrays, strings, and basic classes  
-**Starter file:** `src/main/java/hackathon/Issue61_VH30_MultiFloorParkingAllocationAndBilling.java`
-
-## Scenario brief
-Multi-Floor Parking Allocation and Billing: Calculate the total using the supplied unit parking charge and quantity.. This is a small, isolated exercise; keep the solution within beginner Java and do not add collections or external libraries.
-
-## Task
-The starter calls `calculateParkingCharge(int unitAmount, int quantity)`, but the method has not been written. Write this method from scratch. Calculate the total using the supplied unit parking charge and quantity. Use the supplied values exactly as shown in the starter file. Keep the implementation to basic Java constructs; do not use collections, inheritance, or external libraries.
-
-## Expected output
-The program should produce exactly:
-
-```text
-Total Parking charge: 75
-```
-
-**Required method signature:** `static int calculateParkingCharge(int unitAmount, int quantity)`
-
-## Done when
-- [ ] The program produces the expected output.
-- [ ] The supplied scenario and test values are preserved.
-- [ ] You test one additional sensible boundary case.
-- [ ] Your pull request explains the behaviour changed and how you tested it.
-
+- **Starter file:** `src/main/java/hackathon/Issue61_VH30_MultiFloorParkingAllocationAndBilling.java`
+- **Challenge:** Investigate the complete multi-class OOP workflow using the task list in the linked issue description.
+- **Expected output:** `first=52; second=93; state=READY; total=145; all=211; found=true`
 
 ---
 
-# Issue #62: Write `isValidParkRequest` for Multi-Floor Parking Allocation and Billing
+## Issue #62: Multi-Floor Parking Allocation and Billing — Integrated OOP Challenge
 
-**Difficulty:** Very Hard  
-**Scenario:** Multi-Floor Parking Allocation and Billing: Return true only when the requested amount is at least 1 and does not exceed the available amount.  
-**Topic:** method-writing with variables, conditions, loops, arrays, strings, and basic classes  
-**Starter file:** `src/main/java/hackathon/Issue62_VH30_MultiFloorParkingAllocationAndBilling.java`
-
-## Scenario brief
-Multi-Floor Parking Allocation and Billing: Return true only when the requested amount is at least 1 and does not exceed the available amount.. This is a small, isolated exercise; keep the solution within beginner Java and do not add collections or external libraries.
-
-## Task
-The starter calls `isValidParkRequest(int requested, int available)`, but the method has not been written. Write this method from scratch. Return true only when the requested amount is at least 1 and does not exceed the available amount. Use the supplied values exactly as shown in the starter file. Keep the implementation to basic Java constructs; do not use collections, inheritance, or external libraries.
-
-## Expected output
-The program should produce exactly:
-
-```text
-Park request valid: true
-```
-
-**Required method signature:** `static boolean isValidParkRequest(int requested, int available)`
-
-## Done when
-- [ ] The program produces the expected output.
-- [ ] The supplied scenario and test values are preserved.
-- [ ] You test one additional sensible boundary case.
-- [ ] Your pull request explains the behaviour changed and how you tested it.
-
+- **Starter file:** `src/main/java/hackathon/Issue62_VH30_MultiFloorParkingAllocationAndBilling.java`
+- **Challenge:** Investigate the complete multi-class OOP workflow using the task list in the linked issue description.
+- **Expected output:** `first=52; second=93; state=READY; total=145; all=211; found=true`
 
 ---
 
-# Issue #63: Write `calculateRemainingFloorCapacity` for Multi-Floor Parking Allocation and Billing
+## Issue #63: Multi-Floor Parking Allocation and Billing — Integrated OOP Challenge
 
-**Difficulty:** Very Hard  
-**Scenario:** Multi-Floor Parking Allocation and Billing: Calculate how many floor capacity remain after the occupied amount is deducted from the total capacity.  
-**Topic:** method-writing with variables, conditions, loops, arrays, strings, and basic classes  
-**Starter file:** `src/main/java/hackathon/Issue63_VH30_MultiFloorParkingAllocationAndBilling.java`
-
-## Scenario brief
-Multi-Floor Parking Allocation and Billing: Calculate how many floor capacity remain after the occupied amount is deducted from the total capacity.. This is a small, isolated exercise; keep the solution within beginner Java and do not add collections or external libraries.
-
-## Task
-The starter calls `calculateRemainingFloorCapacity(int capacity, int occupied)`, but the method has not been written. Write this method from scratch. Calculate how many floor capacity remain after the occupied amount is deducted from the total capacity. Use the supplied values exactly as shown in the starter file. Keep the implementation to basic Java constructs; do not use collections, inheritance, or external libraries.
-
-## Expected output
-The program should produce exactly:
-
-```text
-Remaining Floor capacity: 5
-```
-
-**Required method signature:** `static int calculateRemainingFloorCapacity(int capacity, int occupied)`
-
-## Done when
-- [ ] The program produces the expected output.
-- [ ] The supplied scenario and test values are preserved.
-- [ ] You test one additional sensible boundary case.
-- [ ] Your pull request explains the behaviour changed and how you tested it.
-
+- **Starter file:** `src/main/java/hackathon/Issue63_VH30_MultiFloorParkingAllocationAndBilling.java`
+- **Challenge:** Investigate the complete multi-class OOP workflow using the task list in the linked issue description.
+- **Expected output:** `first=52; second=93; state=READY; total=145; all=211; found=true`
 
 ---
 
-# Issue #64: Write `findHighestAvailableParkingSpaces` for Multi-Floor Parking Allocation and Billing
+## Issue #64: Multi-Floor Parking Allocation and Billing — Integrated OOP Challenge
 
-**Difficulty:** Very Hard  
-**Scenario:** Multi-Floor Parking Allocation and Billing: Return the highest value in the supplied available parking spaces array.  
-**Topic:** method-writing with variables, conditions, loops, arrays, strings, and basic classes  
-**Starter file:** `src/main/java/hackathon/Issue64_VH30_MultiFloorParkingAllocationAndBilling.java`
-
-## Scenario brief
-Multi-Floor Parking Allocation and Billing: Return the highest value in the supplied available parking spaces array.. This is a small, isolated exercise; keep the solution within beginner Java and do not add collections or external libraries.
-
-## Task
-The starter calls `findHighestAvailableParkingSpaces(int[] values)`, but the method has not been written. Write this method from scratch. Return the highest value in the supplied available parking spaces array. Use the supplied values exactly as shown in the starter file. Keep the implementation to basic Java constructs; do not use collections, inheritance, or external libraries.
-
-## Expected output
-The program should produce exactly:
-
-```text
-Highest Available parking spaces: 18
-```
-
-**Required method signature:** `static int findHighestAvailableParkingSpaces(int[] values)`
-
-## Done when
-- [ ] The program produces the expected output.
-- [ ] The supplied scenario and test values are preserved.
-- [ ] You test one additional sensible boundary case.
-- [ ] Your pull request explains the behaviour changed and how you tested it.
+- **Starter file:** `src/main/java/hackathon/Issue64_VH30_MultiFloorParkingAllocationAndBilling.java`
+- **Challenge:** Investigate the complete multi-class OOP workflow using the task list in the linked issue description.
+- **Expected output:** `first=52; second=93; state=READY; total=145; all=211; found=true`
 
